@@ -21,7 +21,7 @@ Before installing, make sure your system meets these requirements:
 **1. Clone the Repository**
 
 ```bash
-git clone git@github.com:your-username/your-laravel-project.git
+git clone git@github.com:mugambi-victor/InsureMaxBackend.git
 cd your-laravel-project
 ```
 **2. copy the .env.example to your .env**
@@ -30,9 +30,12 @@ cd your-laravel-project
 ```bash
 composer Install
 php artisan key:generate
-php artisan passport:client --password
 php artisan migrate --seed
 ```
-# Login using seeded data
+**4.run**
+```bash
+php artisan passport:client --password
+```
+**5. Login using seeded data** 
 **email : test@example.com**
 **password: pass1**
